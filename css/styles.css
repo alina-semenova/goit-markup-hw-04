@@ -155,7 +155,7 @@ img {
 
 /** =====Hero=====*/
 
-_ .main {
+.main {
 }
 
 .hero {
@@ -233,10 +233,12 @@ _ .main {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 8px;
 }
 
 .section-about-icons-item {
+}
+
+.section-about-icons-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -245,6 +247,7 @@ _ .main {
   border-radius: 4px;
   width: 264px;
   height: 112px;
+  margin-bottom: 8px;
 }
 
 .section-about-list {
@@ -349,7 +352,7 @@ _ .main {
 
 .social-icons,
 .footer-social-icons {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 .container-list-team {
@@ -419,6 +422,8 @@ _ .main {
   position: absolute;
   background-color: #4d5ae5;
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;2
   padding: 40px 32px;
   top: 0;
   height: 100%;
